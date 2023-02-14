@@ -27,10 +27,10 @@ NPM solves challenges for Node.js developers by providing a centralized registry
 Semantic versioning ranges can also be defined in this section to control how dependencies are updated and ensure long-term stability. 
 
 ![Dev dependencies example](/pic/dev%20depend.png)
-- Dev dependencies are packages or modules that are only required during the development and testing of a Node.js project, not during its production use. These dependencies are defined in the 'devDependencies' section of the package.json file, and can be installed using the 'npm install' command with the '--dev' or '-D' flags.
+- **Dev dependencies** are packages or modules that are only required during the development and testing of a Node.js project, not during its production use. These dependencies are defined in the 'devDependencies' section of the package.json file, and can be installed using the 'npm install' command with the '--dev' or '-D' flags.
 
 ![Dev dependencies example](/pic/depend.png)
-- Dependencies are required for the project to run unlike dev dependencies that are only needed for development. Separating these dependencies keeps the production environment efficient, and only providing necessary development tools. This ensures consistent build and testing across different environments because dev dependencies might not need to be installed in production.
+- **Dependencies** are required for the project to run unlike **dev dependencies** that are only needed for development. Separating these dependencies keeps the production environment efficient, and only providing necessary development tools. This ensures consistent build and testing across different environments because dev dependencies might not need to be installed in production.
 
 # How do you install dependencies? Where do dependencies get installed?
 Dependencies section of the 'package.json' file lists the external packages and modules that a 'Node.js' project needs to function properly. When a project is installed with 'npm install', all NPM's dependencies are automatically downloaded and installed to the 'node_modules' directory.
